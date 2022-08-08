@@ -129,7 +129,50 @@ section p{
     height: 200px;
 }
 
-
+#projetos{
+    background-color: var(--cor-fundo-pagina);
+    padding-top: 80px;
+}
+.cards {
+    perspective: 500px;
+    display: inline-flex;
+    margin-left: 100px;
+  }
+  
+  .card {
+    width: 200px;
+    height: 250px;
+    /*background: url(/imagens/magus.gif) center no-repeat;*/
+    /*background-size: cover;*/
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform 0.5s;
+  }
+  
+   #projeto1,#projeto2,#projeto3,#projeto4 {
+    background-image: url(construcao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96%;
+  }
+  .card:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
+  }
+  .card-title {
+    color: var(--cor-letra-cards);
+    font-size: large;
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: transform 0.5s;
+  }
+  .card:hover .card-title {
+    transform: translateZ(50px);
+  }
 @media (max-width: 854px) {
 
     #btn-mobile{
@@ -181,5 +224,7 @@ section p{
     #container{
         display: block;
     }
-
+    .cards{
+        display: block;
+    }
 }
