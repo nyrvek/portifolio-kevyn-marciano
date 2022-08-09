@@ -235,7 +235,7 @@ footer a img{
         border-bottom: 2px solid rgba(0, 0, 0, .4);
     }
     section{
-        width: 500px;
+        width: 100%;
     }
     section h1{
         font-size: 30px;
