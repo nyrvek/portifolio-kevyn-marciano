@@ -97,7 +97,6 @@ section{
     text-align: center;
     background-color: var(--cor-fundo-pagina);
     height: 400px;
-    width: 500px;
 }
 section h1{
     font-size: 60px;
@@ -235,7 +234,9 @@ footer a img{
         padding: 10px;
         border-bottom: 2px solid rgba(0, 0, 0, .4);
     }
-
+    section{
+        width: 500px;
+    }
     section h1{
         font-size: 30px;
     }
