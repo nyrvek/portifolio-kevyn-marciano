@@ -161,7 +161,7 @@ section h2::before {
 #projeto2,
 #projeto3,
 #projeto4 {
-  background-image: url(img\construcao.png);
+  background-image: url(../img/construcao.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 96%;
