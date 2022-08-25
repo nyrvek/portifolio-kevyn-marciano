@@ -1,0 +1,36 @@
+
+:root {
+    --fundo: #3f3f3f;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background: var(--fundo);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 2px solid #fff;
+    padding: 30px 40px;
+}
+.novaTarefaContainer{
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.novaTarefaContainer input{
+    flex: 3;
+    font-size: 16px;
+}
+.novaTarefaButtom{
+    flex: 1;
+}
