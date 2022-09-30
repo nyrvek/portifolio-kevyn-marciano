@@ -157,7 +157,13 @@ section h2::before {
   transition: transform 0.5s;
 }
 
-#projeto1,
+#projeto1{
+  background-color:rgba(255, 255, 255, 0.25);
+  background-image: url(../img/onOff.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 96%;
+}
 #projeto2,
 #projeto3,
 #projeto4 {
