@@ -167,6 +167,7 @@ section h2::before {
 #projeto2,
 #projeto3,
 #projeto4 {
+  display: none;
   background-image: url(../img/construcao.png);
   background-position: center;
   background-repeat: no-repeat;
