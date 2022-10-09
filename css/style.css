@@ -188,7 +188,27 @@ section h2::before {
 .card:hover .card-title {
   transform: translateZ(50px);
 }
-
+#popup{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  background: rgba(0, 0, 0, 0.6);
+  margin-left: 0px;
+  width: 120px;
+  height: 180px;
+  position: -webkit-sticky; /* Necessário para funcionar no Safari */
+  position: fixed;
+  top: 100;
+  z-index: 100000;
+}
+#popup a{
+  margin-top: 20px;
+  justify-content: space-between;
+  opacity: 1;
+}
+#popup a img{
+  width: 30px;
+}
 footer {
   height: 30px;
   display: block;

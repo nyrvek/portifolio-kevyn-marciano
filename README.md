@@ -12,7 +12,7 @@ Esta página tem como objetivo praticar conhecimentos de front-end(Html,Css e JS
 
 
 ## Outras seções comuns em perfis do GitHub
-👩‍💻 Trabalho atualmente na/no...
+👩‍💻 Cursando Análise e Desenvolvimento de Sistemas
 
 🧠 Estou aprendendo: HTML, CSS e Javascript
 
